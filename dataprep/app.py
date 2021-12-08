@@ -35,6 +35,7 @@ def main(imagedir, xmldir, outputdir):
             "height": res_img.height,
             "file_name": os.path.join(outputdir, image_filename)
         })
+        res_img.save(os.path.join(outputdir, image_filename))
 
         # get annotations
         for obj in it.findall('object'):
