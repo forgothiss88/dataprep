@@ -1,0 +1,6 @@
+# dev
+unittest
+flake8
+autopep8
+
+Pillow
